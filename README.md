@@ -50,42 +50,23 @@ Features:
 - aesthetic appeal: Appearance, based on color, regularity, and form.
 
 
----
-TO DO
 
 ### Data Wrangling and Cleaning
-Your full process of data wrangling and cleaning.
-* Document your workflow and thinking process.
+
+We remove the outliers, drop the columns that don't provide any useful information and standarize the remaining features.
 
 ### Data Analysis
-* Overview the general steps you will go through to analyze your data in order to test your hypothesis.
-* Document each step of your data exploration and analysis.
-* Print charts to demonstrate the effect of your work. Charts make your presentation look good too.
-* If you use ML in your final project, also describe your feature selection process.
+
+We use RandomForest Classifier,KNeighborsClassifier, SVC, SVClinear.
+
 
 ### Model Training and Evaluation
-* Train your ML model, produce results, and evaluate.
-* This is an iterative process. Try your best to improve your model performance by:
-  * Try different models and select one that is the simplest yet produce the best result.
-  * Try advanced techniques and see if they improve the result.
+
+We hypertune the parameters of each model.
 
 ### Conclusion
-* Summarize your data analysis result.
-* State your conclusion of your hypothesis testing.
-* Interpret your findings in terms of the human-understandable question you try to answer.
 
-### What are the next steps?
-
-
-
-
-
-
-
-
-
-
-
+We obtain the best results from the Random Forest Classifier. 
 
 
 
